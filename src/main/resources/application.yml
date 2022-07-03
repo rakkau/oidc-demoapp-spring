@@ -3,9 +3,10 @@ spring:
     oauth2:
       client:
         registration:
-          gluu:
-            client-id: <client-id>
-            client-secret: <client-secret>
+          keycloak:
+            client-id: demo-app
+            client-secret: jqgsBPZHP1AXaXs6dGMZPe91lMCBQxc5
+            client-name: demo-sample-app
             client-authentication-method: basic
             authorization-grant-type: authorization_code
             scope:
@@ -13,6 +14,6 @@ spring:
               - email
               - profile
         provider:
-          gluu:
-            issuer-uri: <server-uri-root>
+          keycloak:
+            issuer-uri: https://keycloak-scale.rakkau.com/realms/dev
             user-name-attribute: name
