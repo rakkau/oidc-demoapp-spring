@@ -1,4 +1,4 @@
-package com.identicum;
+package com.rakkau;
 
 import java.net.Socket;
 import java.security.KeyManagementException;

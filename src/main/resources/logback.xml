@@ -8,7 +8,7 @@
 	</appender>
 	<logger name="org.springframework" level="error" />
 	<logger name="org.springframework.security.oauth2" level="debug" />
-	<logger name="com.identicum" level="debug" />
+	<logger name="com.rakkau" level="debug" />
 	<root level="error">
 		<appender-ref ref="STDOUT" />
 	</root>
