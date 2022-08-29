@@ -20,7 +20,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.identicum"})
+@ComponentScan({"com.rakkau"})
 public class Application extends SpringBootServletInitializer {
 
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
