@@ -4,9 +4,9 @@ spring:
       client:
         registration:
           keycloak:
-            client-id: demo-app
-            client-secret: jqgsBPZHP1AXaXs6dGMZPe91lMCBQxc5
-            client-name: demo-sample-app
+            client-id: test1
+            client-secret: GAeGfBzxma4d3HQE7q5f68k3SZvXJqwO
+            client-name: test1
             client-authentication-method: basic
             authorization-grant-type: authorization_code
             scope:
@@ -15,5 +15,5 @@ spring:
               - profile
         provider:
           keycloak:
-            issuer-uri: https://keycloak-scale.rakkau.com/realms/dev
+            issuer-uri: http://10.94.184.167:8090/realms/qa
             user-name-attribute: name
